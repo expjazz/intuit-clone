@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   background: #eceef1;
-  font-family: 'Nunito Sans', serif;
+  font-family: "Nunito Sans", serif;
 }
 
 .sign-in {
@@ -12,7 +12,7 @@ body {
   float: right;
   padding: 5px 30px;
 }
-.signin-details p{
+.signin-details p {
   font-size: 0.8rem;
   line-height: 1rem;
   color: #505050;
@@ -21,15 +21,14 @@ body {
   text-decoration: none;
 }
 .sign-in button {
-  background: #0077C5;
-    border-radius: 4px;
-    color: #fff;
-    border: 1px solid #4c4c4c;
-    padding: 0px 18px;
-    height: 33px;
-    margin-top: 13px;
-    margin-left: 10px;
-    
+  background: #0077c5;
+  border-radius: 4px;
+  color: #fff;
+  border: 1px solid #4c4c4c;
+  padding: 0px 18px;
+  height: 33px;
+  margin-top: 13px;
+  margin-left: 10px;
 }
 .container {
   align-items: center;
@@ -46,7 +45,7 @@ body {
 .header .title {
   text-decoration: none;
   color: #8d9096;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 900;
   font-size: 3rem;
 }
@@ -60,7 +59,7 @@ body {
   align-items: center;
   margin-right: 14px;
 }
-.round  a{
+.round a {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -82,6 +81,35 @@ body {
 .round2 a {
   background: #2ca01c;
 }
-.round3 a{
+.round3 a {
   background: #d52b1e;
+}
+
+.form {
+  margin-top: 20px;
+  width: 400px;
+}
+
+form {
+  background: white;
+  border: 1px solid black;
+  width: 100%;
+  padding: 30px;
+  align-items: center;
+}
+.title-container {
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.email,
+.phone,
+.password {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  padding: 8px;
 }
