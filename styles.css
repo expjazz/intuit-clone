@@ -111,5 +111,18 @@ form {
 }
 
 .form input {
-  padding: 8px;
+  padding: 12px;
+}
+
+.phone-subtitle {
+  font-size: 8px;
+}
+
+.submit-btn {
+  background: #0077c5;
+  border-radius: 4px;
+  color: white;
+  margin-top: 40px;
+  width: 100%;
+  padding: 0 16px;
 }
