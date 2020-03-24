@@ -10,3 +10,13 @@ body {
   justify-content: center;
   display: flex;
 }
+
+.header {
+  color: #8d9096;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.header a {
+  text-decoration: none;
+}
