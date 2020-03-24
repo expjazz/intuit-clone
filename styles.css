@@ -166,9 +166,27 @@ form {
 }
 
 .captcha {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   text-align: center;
-  padding: 8px 0px;
+  padding: 18px 0px;
   background: #f1f1f1;
   margin: 0px 0px 5px;
+}
+.captcha a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+footer {
+  text-align: center;
+  padding: 35px 0px 20px;
+  font-size: 0.8rem;
+  line-height: 0.5rem;
+  color: #505050;
+  font-weight: 500;
+}
+.links a {
+  text-decoration: none;
+  color: #0077c5;
+  padding: 0px 10px;
 }
