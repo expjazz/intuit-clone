@@ -39,11 +39,49 @@ body {
 }
 
 .header {
-  color: #8d9096;
   text-align: center;
   font-size: 2rem;
 }
 
-.header a {
+.header .title {
   text-decoration: none;
+  color: #8d9096;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.sub-title {
+  display: flex;
+  justify-content: center;
+  margin: 4px 0px;
+}
+.round {
+  display: flex;
+  align-items: center;
+  margin-right: 14px;
+}
+.round  a{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+.round span {
+  font-size: 1rem;
+  color: #8d9096;
+  font-weight: 600;
+}
+.round1 a {
+  background: #00a6a4;
+}
+.round2 a {
+  background: #2ca01c;
+}
+.round3 a{
+  background: #d52b1e;
 }
