@@ -4,6 +4,7 @@ body {
   box-sizing: border-box;
   background: #eceef1;
   font-family: "Nunito Sans", serif;
+  color: #4c4c4c;
 }
 
 .sign-in {
@@ -19,6 +20,7 @@ body {
 }
 .signin-details a {
   text-decoration: none;
+  color: #0077c5;
 }
 .sign-in button {
   background: #0077c5;
@@ -86,21 +88,35 @@ body {
 }
 
 .form {
+  margin: 0px auto;
   margin-top: 20px;
-  width: 400px;
+  box-sizing: border-box;
 }
 
 form {
   background: white;
-  border: 1px solid black;
-  width: 100%;
+  border: 1px solid #c7c7c7;
   padding: 30px;
+  width: 320px;
   align-items: center;
 }
 .title-container {
   text-align: center;
   margin-top: -20px;
   margin-bottom: 10px;
+}
+.form-title {
+  color: #4c4c4c;
+  font-size: 24px;
+  font-weight: 400;
+}
+.form-sub-title {
+  color: #4c4c4c;
+  font-size: 1rem;
+}
+.form-sub-title a {
+  text-decoration: none;
+  color: #0077c5;
 }
 
 .email,
@@ -111,18 +127,28 @@ form {
 }
 
 .form input {
-  padding: 12px;
+  padding: 0px 8px 0px 6px;
+  height: 34px;
+  margin: 6px 0px 30px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
 }
 
 .phone-subtitle {
-  font-size: 8px;
+  font-size: 10px;
+  margin-top: -24px;
+  color: #333;
+  margin-bottom: 26px;
 }
 
 .submit-btn {
   background: #0077c5;
   border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  padding: 14px 0px;
   color: white;
-  margin-top: 40px;
+  font-size: 0.95rem;
+  margin: 40px 0px;
+  font-weight: 600;
   width: 100%;
-  padding: 0 16px;
 }
