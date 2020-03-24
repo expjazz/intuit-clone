@@ -91,11 +91,11 @@ body {
   margin: 0px auto;
   margin-top: 20px;
   box-sizing: border-box;
+  border: 1px solid #c7c7c7;
 }
 
 form {
   background: white;
-  border: 1px solid #c7c7c7;
   padding: 30px;
   width: 320px;
   align-items: center;
@@ -151,4 +151,24 @@ form {
   margin: 40px 0px;
   font-weight: 600;
   width: 100%;
+}
+.agreement {
+  color: #757575;
+  font-style: italic;
+  padding: 8px 30px;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 1.4rem;
+}
+.agreement a {
+  text-decoration: none;
+  color: #0077c5;
+}
+
+.captcha {
+  font-size: 0.7rem;
+  text-align: center;
+  padding: 8px 0px;
+  background: #f1f1f1;
+  margin: 0px 0px 5px;
 }
