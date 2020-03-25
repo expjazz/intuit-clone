@@ -13,15 +13,18 @@ body {
   justify-content: right;
   padding: 5px 30px;
 }
+
 .signin-details p {
   color: #505050;
   font-size: 0.8rem;
   line-height: 1rem;
 }
+
 .signin-details a {
   color: #0077c5;
   text-decoration: none;
 }
+
 .sign-in button {
   background: #0077c5;
   border: 1px solid #4c4c4c;
@@ -30,8 +33,9 @@ body {
   height: 33px;
   margin-left: 10px;
   margin-top: 13px;
-  padding: 0px 18px;
+  padding: 0 18px;
 }
+
 .container {
   align-items: center;
   clear: both;
@@ -51,16 +55,19 @@ body {
   font-weight: 900;
   text-decoration: none;
 }
+
 .sub-title {
   display: flex;
   justify-content: center;
-  margin: 4px 0px;
+  margin: 4px 0;
 }
+
 .round {
   align-items: center;
   display: flex;
   margin-right: 14px;
 }
+
 .round a {
   align-items: center;
   border-radius: 50%;
@@ -72,17 +79,21 @@ body {
   margin-right: 10px;
   width: 30px;
 }
+
 .round span {
   color: #8d9096;
   font-size: 1rem;
   font-weight: 600;
 }
+
 .round1 a {
   background: #00a6a4;
 }
+
 .round2 a {
   background: #2ca01c;
 }
+
 .round3 a {
   background: #d52b1e;
 }
@@ -90,7 +101,7 @@ body {
 .form {
   border: 1px solid #c7c7c7;
   box-sizing: border-box;
-  margin: 0px auto;
+  margin: 0 auto;
   margin-top: 20px;
 }
 
@@ -100,20 +111,24 @@ form {
   padding: 30px;
   width: 320px;
 }
+
 .title-container {
   margin-bottom: 10px;
   margin-top: -20px;
   text-align: center;
 }
+
 .form-title {
   color: #4c4c4c;
   font-size: 24px;
   font-weight: 400;
 }
+
 .form-sub-title {
   color: #4c4c4c;
   font-size: 1rem;
 }
+
 .form-sub-title a {
   color: #0077c5;
   text-decoration: none;
@@ -130,8 +145,8 @@ form {
   border: 1px solid #dcdcdc;
   border-radius: 4px;
   height: 34px;
-  margin: 6px 0px 30px;
-  padding: 0px 8px 0px 6px;
+  margin: 6px 0 30px;
+  padding: 0 8px 0 6px;
 }
 
 .phone-subtitle {
@@ -148,10 +163,11 @@ form {
   color: white;
   font-size: 0.95rem;
   font-weight: 600;
-  margin: 40px 0px;
-  padding: 14px 0px;
+  margin: 40px 0;
+  padding: 14px 0;
   width: 100%;
 }
+
 .agreement {
   color: #757575;
   font-size: 0.8em;
@@ -160,6 +176,7 @@ form {
   padding: 8px 30px;
   text-align: center;
 }
+
 .agreement a {
   color: #0077c5;
   text-decoration: none;
@@ -168,10 +185,11 @@ form {
 .captcha {
   background: #f1f1f1;
   font-size: 0.6rem;
-  margin: 0px 0px 5px;
-  padding: 18px 0px;
+  margin: 0 0 5px;
+  padding: 18px 0;
   text-align: center;
 }
+
 .captcha a {
   color: #0077c5;
   text-decoration: none;
@@ -182,11 +200,12 @@ footer {
   font-size: 0.8rem;
   font-weight: 500;
   line-height: 0.5rem;
-  padding: 35px 0px 20px;
+  padding: 35px 0 20px;
   text-align: center;
 }
+
 .links a {
   color: #0077c5;
-  padding: 0px 10px;
+  padding: 0 10px;
   text-decoration: none;
 }
